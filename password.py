@@ -26,7 +26,7 @@ def hachage_mdp(password):
     mdp_hacher = hashlib.sha256(password.encode("utf-8")).hexdigest()
     return mdp_hacher
 
-# Autoriser à l'utilisateur à saisir un nouveau mdp jusqu'à 4 tentatives maximum. 
+# Autoriser l'utilisateur à saisir un nouveau mdp jusqu'à 4 tentatives
 tentatives_max = 4
 tentatives_restantes = tentatives_max
 
